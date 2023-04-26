@@ -1,0 +1,160 @@
+* {
+    background: url(./images/louis-magnotti-YvCg5X3pWzc-unsplash.jpg);
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+input [type=text], select , textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6F2DBD;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+
+h2 {
+    font-size: 25px;
+}
+
+input[type=submit] {
+    background-color: #6F2DBD;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #420d7f;
+    text-transform: uppercase;
+}
+
+.container {
+    background: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #6F2DBD;
+    width: 50%;
+    margin-top: -5px;
+    margin-left: 550px;
+    
+    
+    
+
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 8px;
+    padding: 20px;
+    right 20%;
+    
+}
+
+.row {
+    min-height: 1vh;
+}
+
+
+.row::after {
+    content:"" ;
+    display:table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.background {
+    background-color:black;
+}
+
+.topnav {
+    overflow: hidden;
+    background: #000000;
+    font-family: Quicksand, sans-serif;
+    font-size: 10px;
+    max-width: 100%;
+    align-items: center;
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #000000;
+    color: #6F2DBD;
+    text-transform: uppercase;
+}
+  
+.topnav a.active {
+    background-color: #000000;
+    color: #6F2DBD;
+    text-transform: uppercase;
+}
+
+
+.flex-container {
+    display: flex;
+    overflow: hidden;
+    margin-top: 420px;
+}
+
+.gif1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 55px;
+}
+.gif2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 55px;
+}
+.gif3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 55px;
+}
+.gif4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+

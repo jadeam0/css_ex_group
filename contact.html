@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ContactStyle.css" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <header>
+        <div class="topnav">
+            <a href="index.html" target="_self">home</a>
+            <a href="contact.html" class="active" target="_self">about</a>
+            <a href="about.html" target="_self">contact</a>
+        </div>
+    </header>
+    <div class="container">
+      <div class="background">
+        <div class="text">
+          <h2>Contact us</h2>
+          <p>Book a flight with us right now gain air with our aiways</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./images/wallpaper.jpg" alt="wallpaper" class="image" />
+          </div>
+          <div class="column">
+            <form action="https://formspree.io/f/xknakeky" method="post">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                class="fname"
+                name="firstname"
+                placeholder="Type in your name"
+              />
+              <br><br>
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                class="lname"
+                name="lastname"
+                placeholder="Type in your last name"
+              />
+              <br><br>
+              <label for="country">Country</label>
+              <select name="country" class="country">
+                <option value="Egypt">Egypt</option>
+                <option value="USA">USA</option>
+                <option value="Japan">Japan</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+              <br>
+              <label for="subject"
+                >do you have any problems with our airlines</label
+              >
+              <textarea
+                name="subject"
+                class="subject"
+                cols="30"
+                rows="10"
+                placeholder="describe your issue"
+              ></textarea>
+              <input type="submit" value="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="flex-container">
+            <div><img src="images/icons8-twitter-circled.gif" alt="tw" class="gif1"></div>
+            <div><img src="./images/icons8-instagram.gif" alt="ig" class="gif2"></div>
+            <div><img src="./images/icons8-linkedin-circled.gif" alt="link" class="gif3"></div>  
+            <div><img src="./images/icons8-github.gif" alt="git" class="gif4"></div>
+        </div>
+        <p class="MB">&copy; ZEJ Airlines</p>
+    </footer>
+  </body>
+</html>
